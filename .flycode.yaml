@@ -1,0 +1,11 @@
+version: "0.1"
+environments:
+  - name: master
+    branch: master
+    mode: pull-request
+apps:
+  - name: ruby-example-app
+    path: ""
+    text-resources:
+      - path: "*.html.erb"
+        format: ruby-hardcoded
