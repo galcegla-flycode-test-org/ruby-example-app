@@ -9,3 +9,6 @@ apps:
     text-resources:
       - path: "*.html.erb"
         format: ruby-hardcoded
+
+
+
